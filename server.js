@@ -1,6 +1,8 @@
 const express = require('express');
 const HOST = process.env.HOST || 'localhost';
 
+console.log(HOST);
+
 const app = express();
 
 app.use((req, res, next) => {
